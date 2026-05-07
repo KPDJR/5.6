@@ -391,3 +391,25 @@ nav a:hover { color: var(--green); }
   font-size: 22px;
   font-weight: 700;
 }
+/* Final hero banner override */
+.hero.hero-modern {
+  background:
+    linear-gradient(
+      rgba(18,59,39,0.68),
+      rgba(18,59,39,0.68)
+    ),
+    url("images/landscape-banner.png") !important;
+
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  color: white;
+}
+
+.hero.hero-modern h1,
+.hero.hero-modern .hero-text,
+.hero.hero-modern .eyebrow,
+.hero.hero-modern .popular-searches,
+.hero.hero-modern .popular-searches span {
+  color: white;
+}
