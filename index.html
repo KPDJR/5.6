@@ -1,35 +1,188 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>South Shore Landscape Directory</title><meta name="description" content="Find trusted landscape service professionals across the South Shore and Southeastern Massachusetts. Browse local providers by town and service."/><link rel="stylesheet" href="styles.css"/><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"South Shore Landscape Directory","url":"https://www.sslandscapedirectory.com/","potentialAction":{"@type":"SearchAction","target":"https://www.sslandscapedirectory.com/landscapers.html?search={search_term_string}","query-input":"required name=search_term_string"}}</script></head><body><header class="site-header"><a class="logo" href="index.html"><span>South Shore Landscape Directory</span></a><nav><a href="index.html">Home</a><a href="landscapers.html">Directory</a><a href="towns.html">Towns</a><a href="services.html">Services</a><a href="blog.html">Guides</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav></header><main><section class="hero hero-modern"><div class="hero-content"><p class="eyebrow">South Shore + Southeastern Massachusetts</p><h1>Find trusted landscaping professionals near you.</h1><p class="hero-text">Browse local lawn care, cleanup, hardscaping, patio, drainage, and outdoor service providers serving South Shore and Southeastern Massachusetts homeowners.</p><p class="hero-text">Built by a South Shore homeowner to help you compare real local businesses without handing your information to a spammy lead form.</p><div class="hero-search-box"><input id="homeSearchInput" type="text" placeholder="Search by town or service, like Brockton or hardscaping" aria-label="Search by town or service"/><button class="button primary" type="button" onclick="homeSearchListings()">Search</button></div><div class="popular-searches"><span>Popular searches:</span><a href="brockton-landscapers.html">Brockton</a><a href="plymouth-landscapers.html">Plymouth</a><a href="quincy-landscapers.html">Quincy</a><a href="landscapers.html?service=Hardscaping%20%26%20Masonry">Hardscaping</a></div><div class="hero-actions"><a class="button primary" href="landscapers.html">Browse Directory</a><a class="button secondary" href="towns.html">Browse by Town</a><a class="button secondary" href="blog.html">Read Landscape Guides</a></div></div><div class="hero-card trust-card"><h2>Why homeowners use this directory</h2><ul><li>Local Massachusetts focus</li><li>Browse by town and service</li><li>Clear descriptions before you reach out</li><li>No required lead form to start comparing</li></ul></div></section><section class="section story-section"><div class="section-heading"><p class="eyebrow">Why this directory exists</p><h2>Created from real homeowner frustration.</h2></div><p>After trying to find fair and reliable landscape service providers through traditional online directories, I realized how quickly the process can turn into scattered searches, endless calls, and follow-up emails. This site is meant to make that first step easier by organizing local information in one central place for South Shore and Southeastern Massachusetts homeowners.</p><p><a class="button secondary" href="about.html">Read our story</a></p></section><section class="section featured-services"><div class="section-heading"><p class="eyebrow">Browse by need</p><h2>Popular landscaping services</h2><p>Start with the type of project you need help with, then compare local providers serving your town.</p></div><div class="service-grid service-icon-grid"><a class="service-card service-link-card" href="landscapers.html?service=Lawn%20Care%20%26%20Maintenance"><span class="service-icon">🌿</span><h3>Lawn Care</h3><p>Mowing, maintenance, edging, and routine property care.</p></a><a class="service-card service-link-card" href="landscapers.html?service=Hardscaping%20%26%20Masonry"><span class="service-icon">🧱</span><h3>Hardscaping</h3><p>Patios, walkways, walls, masonry, and outdoor living projects.</p></a><a class="service-card service-link-card" href="landscapers.html?service=Drainage%2C%20Irrigation%20%26%20Site%20Work"><span class="service-icon">💧</span><h3>Drainage & Irrigation</h3><p>Water management, irrigation systems, grading, and site work.</p></a><a class="service-card service-link-card" href="landscapers.html?service=Landscape%20Design%20%26%20Planting"><span class="service-icon">🌳</span><h3>Design & Planting</h3><p>Planting plans, shrubs, beds, trees, and curb appeal projects.</p></a></div></section><section class="section"><div class="section-heading"><p class="eyebrow">Start comparing</p><h2>Local landscape service options</h2></div><div id="featuredGrid" class="listing-grid"></div></section><section class="section muted"><div class="section-heading"><p class="eyebrow">Find nearby help</p><h2>Browse by town</h2></div><div class="town-grid"><a href="brockton-landscapers.html">Brockton</a>
-<a href="plymouth-landscapers.html">Plymouth</a>
-<a href="abington-landscapers.html">Abington</a>
-<a href="avon-landscapers.html">Avon</a>
-<a href="braintree-landscapers.html">Braintree</a>
-<a href="bridgewater-landscapers.html">Bridgewater</a>
-<a href="carver-landscapers.html">Carver</a>
-<a href="dartmouth-landscapers.html">Dartmouth</a>
-<a href="duxbury-landscapers.html">Duxbury</a>
-<a href="east-bridgewater-landscapers.html">East Bridgewater</a>
-<a href="easton-landscapers.html">Easton</a>
-<a href="fall-river-landscapers.html">Fall River</a>
-<a href="halifax-landscapers.html">Halifax</a>
-<a href="hanover-landscapers.html">Hanover</a>
-<a href="hanson-landscapers.html">Hanson</a>
-<a href="kingston-landscapers.html">Kingston</a>
-<a href="lakeville-landscapers.html">Lakeville</a>
-<a href="marshfield-landscapers.html">Marshfield</a>
-<a href="middleborough-landscapers.html">Middleborough</a>
-<a href="milton-landscapers.html">Milton</a>
-<a href="new-bedford-landscapers.html">New Bedford</a>
-<a href="norwell-landscapers.html">Norwell</a>
-<a href="pembroke-landscapers.html">Pembroke</a>
-<a href="plympton-landscapers.html">Plympton</a>
-<a href="quincy-landscapers.html">Quincy</a>
-<a href="randolph-landscapers.html">Randolph</a>
-<a href="raynham-landscapers.html">Raynham</a>
-<a href="rockland-landscapers.html">Rockland</a>
-<a href="scituate-landscapers.html">Scituate</a>
-<a href="stoughton-landscapers.html">Stoughton</a>
-<a href="taunton-landscapers.html">Taunton</a>
-<a href="wareham-landscapers.html">Wareham</a>
-<a href="west-bridgewater-landscapers.html">West Bridgewater</a>
-<a href="weymouth-landscapers.html">Weymouth</a>
-<a href="whitman-landscapers.html">Whitman</a></div></section><section class="section"><div class="section-heading"><p class="eyebrow">Helpful guidance</p><h2>Make a more confident hiring decision</h2></div><div class="service-grid"><article class="service-card"><h3>Understand Local Costs</h3><p>Learn what affects lawn care, cleanup, mulch, planting, and hardscaping pricing on the South Shore.</p><a class="button secondary" href="blog-landscaping-costs-massachusetts.html">Read guide</a></article><article class="service-card"><h3>Ask Better Questions</h3><p>Use practical questions to compare estimates, services, cleanup expectations, and scheduling.</p><a class="button secondary" href="blog-how-to-choose-landscaper.html">Read guide</a></article><article class="service-card"><h3>Plan by Season</h3><p>Know what to schedule in spring, summer, fall, and before winter arrives.</p><a class="button secondary" href="blog-seasonal-landscaping-massachusetts.html">Read guide</a></article><article class="service-card"><h3>Solve Local Yard Issues</h3><p>Learn about South Shore drainage, sandy soil, salt exposure, shade, and leaf buildup.</p><a class="button secondary" href="blog-common-landscaping-challenges-south-shore.html">Read guide</a></article></div></section><section class="section faq-home"><div class="section-heading"><p class="eyebrow">Hiring help</p><h2>Frequently asked questions</h2></div><div class="faq-list"><details open><summary>How much does landscaping cost in Massachusetts?</summary><p>Costs vary by property size, scope, materials, timing, and access. Routine lawn care is usually priced differently than cleanups, planting, patios, walls, drainage, or full outdoor renovations.</p></details><details><summary>What should I ask before hiring a landscaper?</summary><p>Ask about insurance, recent similar work, written estimates, cleanup expectations, scheduling, materials, payment terms, and whether hauling or disposal is included.</p></details><details><summary>Should I compare multiple local companies?</summary><p>Yes. Comparing a few local providers helps you understand scope, communication style, pricing, availability, and whether the company is a good fit for your property.</p></details></div></section><section id="claim" class="section cta"><h2>Own a landscaping business?</h2><p>Have a landscaping business with a dedicated website? Request a listing update or send your business information for review.</p><p>If your business does not yet have a dedicated website, contact us directly and we can discuss how to be considered for inclusion in the directory.</p><form class="claim-form" name="claim-listing" method="POST" data-netlify="true"><input type="hidden" name="form-name" value="claim-listing"/><input name="business" placeholder="Business name" required/><input name="email" type="email" placeholder="Email address" required/><input name="website" placeholder="Website URL"/><button class="button primary" type="submit">Submit Listing Claim</button></form></section></main><footer class="site-footer"><div class="footer-links"><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms</a><a href="disclaimer.html">Disclaimer</a><a href="blog.html">Guides</a></div><p>© <span id="year"></span> South Shore Landscape Directory. Independent local directory.</p></footer><div class="mobile-search-bar"><input id="mobileSearchInput" type="text" placeholder="Search town or service..." aria-label="Search town or service"><button class="button primary" type="button" onclick="const q=document.getElementById('mobileSearchInput').value.trim(); window.location.href=q?'landscapers.html?search='+encodeURIComponent(q):'landscapers.html';">Search</button></div><script src="script.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0" />
+
+  <title>South Shore Landscape Directory</title>
+
+  <meta name="description"
+        content="Find trusted landscape service professionals across the South Shore and Southeastern Massachusetts. Browse local providers by town and service." />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebSite",
+    "name":"South Shore Landscape Directory",
+    "url":"https://www.sslandscapedirectory.com/",
+    "potentialAction":{
+      "@type":"SearchAction",
+      "target":"https://www.sslandscapedirectory.com/landscapers.html?search={search_term_string}",
+      "query-input":"required name=search_term_string"
+    }
+  }
+  </script>
+
+</head>
+
+<body>
+
+  <header class="site-header">
+
+    <a class="logo" href="index.html">
+
+      <img src="images/south-shore-logo.png"
+           alt="South Shore Landscape Directory Logo"
+           class="site-logo">
+
+      <span>South Shore Landscape Directory</span>
+
+    </a>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="landscapers.html">Directory</a>
+      <a href="towns.html">Towns</a>
+      <a href="services.html">Services</a>
+      <a href="blog.html">Guides</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+  </header>
+
+  <main>
+
+    <section class="hero hero-modern">
+
+      <div class="hero-content">
+
+        <p class="eyebrow">
+          South Shore + Southeastern Massachusetts
+        </p>
+
+        <h1>
+          Find trusted landscaping professionals near you.
+        </h1>
+
+        <p class="hero-text">
+          Browse local lawn care, cleanup, hardscaping, patio, drainage,
+          and outdoor service providers serving South Shore and
+          Southeastern Massachusetts homeowners.
+        </p>
+
+        <p class="hero-text">
+          Built by a South Shore homeowner to help you compare real local
+          businesses without handing your information to a spammy lead form.
+        </p>
+
+        <div class="hero-search-box">
+
+          <input id="homeSearchInput"
+                 type="text"
+                 placeholder="Search by town or service, like Brockton or hardscaping"
+                 aria-label="Search by town or service" />
+
+          <button class="button primary"
+                  type="button"
+                  onclick="homeSearchListings()">
+            Search
+          </button>
+
+        </div>
+
+        <div class="popular-searches">
+
+          <span>Popular searches:</span>
+
+          <a href="brockton-landscapers.html">Brockton</a>
+
+          <a href="plymouth-landscapers.html">Plymouth</a>
+
+          <a href="quincy-landscapers.html">Quincy</a>
+
+          <a href="landscapers.html?service=Hardscaping%20%26%20Masonry">
+            Hardscaping
+          </a>
+
+        </div>
+
+        <div class="hero-actions">
+
+          <a class="button primary"
+             href="landscapers.html">
+            Browse Directory
+          </a>
+
+          <a class="button secondary"
+             href="towns.html">
+            Browse by Town
+          </a>
+
+          <a class="button secondary"
+             href="blog.html">
+            Read Landscape Guides
+          </a>
+
+        </div>
+
+      </div>
+
+      <div class="hero-card trust-card">
+
+        <h2>Why homeowners use this directory</h2>
+
+        <ul>
+          <li>Local Massachusetts focus</li>
+          <li>Browse by town and service</li>
+          <li>Clear descriptions before you reach out</li>
+          <li>No required lead form to start comparing</li>
+        </ul>
+
+      </div>
+
+    </section>
+
+    <section class="section story-section">
+
+      <div class="section-heading">
+
+        <p class="eyebrow">Why this directory exists</p>
+
+        <h2>Created from real homeowner frustration.</h2>
+
+      </div>
+
+      <p>
+        After trying to find fair and reliable landscape service providers
+        through traditional online directories, I realized how quickly
+        the process can turn into scattered searches, endless calls,
+        and follow-up emails.
+      </p>
+
+      <p>
+        This site is meant to make that first step easier by organizing
+        local information in one central place for South Shore and
+        Southeastern Massachusetts homeowners.
+      </p>
+
+      <p>
+        <a class="button secondary"
+           href="about.html">
+          Read our story
+        </a>
+      </p>
+
+    </section>
+
+  </main>
+
+</body>
+
+</html>

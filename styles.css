@@ -300,3 +300,22 @@ nav a:hover { color: var(--green); }
   body { padding-bottom: 74px; }
   .mobile-search-bar { display: flex; }
 }
+
+.site-logo {
+  height: 70px;
+  width: auto;
+  display: block;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo span {
+  font-size: 22px;
+  font-weight: 700;
+}
