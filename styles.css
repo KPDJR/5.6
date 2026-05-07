@@ -325,6 +325,11 @@ nav a:hover { color: var(--green); }
 .trust-card ul { list-style: none; padding-left: 0; }
 .trust-card li { position: relative; padding-left: 28px; }
 .trust-card li:before { content: "✓"; position: absolute; left: 0; color: var(--green); font-weight: 900; }
+.trust-card,
+.trust-card h2,
+.trust-card li {
+  color: var(--green-dark);
+}
 .service-icon-grid .service-link-card { text-decoration: none; transition: transform .2s ease, box-shadow .2s ease; }
 .service-icon-grid .service-link-card:hover,
 .listing-card:hover,
