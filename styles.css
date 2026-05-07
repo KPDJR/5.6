@@ -413,3 +413,21 @@ nav a:hover { color: var(--green); }
 .hero.hero-modern .popular-searches span {
   color: white;
 }
+/* Force homepage hero banner image */
+section.hero.hero-modern {
+  background-image:
+    linear-gradient(rgba(18,59,39,0.68), rgba(18,59,39,0.68)),
+    url("/images/landscape-banner.png") !important;
+
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+}
+
+section.hero.hero-modern h1,
+section.hero.hero-modern .hero-text,
+section.hero.hero-modern .eyebrow,
+section.hero.hero-modern .popular-searches,
+section.hero.hero-modern .popular-searches span {
+  color: #ffffff !important;
+}
